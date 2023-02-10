@@ -1,0 +1,87 @@
+
+.pams {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.col2 {
+    flex: 1; 
+    background-color: lightgreen; 
+    padding: 10px;
+    height: 500px;
+}
+
+.col3 {
+    flex: 1; 
+    background-color: lightpink;
+    padding: 10px;
+    height: 500px;
+}
+
+.RoundedImage {
+    border-radius: 50%;
+    width: 300px;
+    height: 300px;
+    border: 2px solid #000;
+}
+.parentRoundedImage {
+    display: flex;
+    margin : auto;
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    border: 2px solid #000;
+    
+}
+
+table {
+    margin-top: 10px;
+    margin-left: 8px;
+    margin-right: 8px;
+    border-collapse: collapse;
+    width: 97%;
+    background-color: white;
+}
+td {
+    text-align: left;
+    padding: 8px;
+    font-size: small;
+}
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+.centered {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    padding: auto;
+}
+.col1 {
+    flex: 1; 
+    display: flex;
+    justify-content: center;
+    background-color: lightblue; 
+    padding: 10px;
+    /* padding: px; */
+    height: 500px;
+    
+}
+.aligning {
+    display: flex;
+    padding: 10px;
+    justify-content: space-between;
+}
+.aligning div {
+    background-color: yellow;
+    padding: 8px;
+    border-radius: 8%;
+}
+.row:after {
+    display: flex;
+    flex-wrap: wrap;
+    /* content: "";
+    display: table; */
+    clear: both;
+}
